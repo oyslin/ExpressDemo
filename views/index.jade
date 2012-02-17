@@ -1,0 +1,14 @@
+h1 This is #{appName}
+friends = 10
+     case friends
+       when 0
+         p you have no friends
+       when 1
+         p you have a friend
+       default
+         p you have #{friends} friends
+         
+user = {id : 12, name : 'Walt'}
+a(href='/user/' + user.id)= user.name
+
+| <p>YYYYY</p>
